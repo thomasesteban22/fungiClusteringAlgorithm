@@ -1,3 +1,1 @@
 # fungiClusteringAlgorithm
-
-Desarrollado en Uwuntu
