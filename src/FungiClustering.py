@@ -1,12 +1,8 @@
 #%%
 import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-from sklearn.metrics import silhouette_score
-# Algoritmo bioinspirado en la expansión del reino fungi
 class FungiInspiredClustering:
-    def __init__(self,Distance_Function, n_clusters=5, max_iter=100, local_radius=1.0, global_radius=5.0, tolerance=1e-4):
-        self.Distance_Function = Distance_Function
+    def __init__(self, distance_function, n_clusters=5, max_iter=100, local_radius=1.0, global_radius=5.0, tolerance=1e-4):
+        self.Distance_Function = distance_function
         self.n_clusters = n_clusters
         self.max_iter = max_iter
         self.local_radius = local_radius
