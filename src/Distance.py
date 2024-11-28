@@ -1,5 +1,5 @@
 import numpy as np
-
+#Script Best Distance Function
 
 def manhattan_distance(point1, point2):
     """
